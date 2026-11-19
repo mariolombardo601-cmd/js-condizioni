@@ -3,20 +3,24 @@
 
 /*
   STEPS
-  1 -
-  2 -
-  3 -
-  4 -
+  1 -diamo un contenitore al numero pescato dal math
+  2 -se il numero e minore di 0.5 testa senno croce
+  3 -andiamo a mettere degli alter per il risultato
+  4 -e infine con un consol log mostriamo il numero del math
 */
 
 // # Fase di preparazione
-
+const n = Math.random();
 
 // # Fase di raccolta dati
-
+if (Math.random() < 0.5) {
+  alert(`testa`);
+} else {
+  alert(`croce`);
+}
 
 // # Fase di elaborazione
 
 
 // # Fase di output
-
+console.log(n);
