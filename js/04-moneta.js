@@ -13,7 +13,7 @@
 const n = Math.random();
 
 // # Fase di raccolta dati
-if (Math.random() < 0.5) {
+if (n < 0.5) {
   alert(`testa`);
 } else {
   alert(`croce`);
